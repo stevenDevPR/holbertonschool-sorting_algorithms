@@ -62,19 +62,21 @@ Each group of two should pair program for at least the mandatory part.
 * Please declare the prototype of the functions print_array and print_list in your sort.h header file
 * Please use the following data structure for doubly linked list:
 
-	/**
-	 * struct listint_s - Doubly linked list node
-	 *
-	 * @n: Integer stored in the node
-	 * @prev: Pointer to the previous element of the list
-	 * @next: Pointer to the next element of the list
-	 */
-	typedef struct listint_s
-	{
-	    const int n;
-	    struct listint_s *prev;
-	    struct listint_s *next;
-	} listint_t;
+
+		/**
+		 * struct listint_s - Doubly linked list node
+		 *
+		 * @n: Integer stored in the node
+		 * @prev: Pointer to the previous element of the list
+		 * @next: Pointer to the next element of the list
+		 */
+		typedef struct listint_s
+		{
+		    const int n;
+		    struct listint_s *prev;
+		    struct listint_s *next;
+		} listint_t;
+
 
 Please, note this format is used for Quiz and Task questions.
 
