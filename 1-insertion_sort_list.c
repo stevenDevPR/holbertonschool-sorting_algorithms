@@ -8,16 +8,16 @@
  */
 void insertion_sort_list(listint_t **list)
 {
-	listint_t *new_node, *prev_node;
+	listint_t *new_node, *prev_node, *current;
 
 	if (list == NULL || *list == NULL || (*list)->next == NULL)
 		return;
 
-	listint_t *current = (*list)->next;
+	current = (*list)->next;
 
 	while (current != NULL)
 	{
-		next_node = current->next;
+		new_node = current->next;
 		prev_node = current->prev;
 
 		while (prev_node != NULL && prev_node->n > current->n)
@@ -44,6 +44,6 @@ void insertion_sort_list(listint_t **list)
 			prev_node = current->prev;
 			print_list(*list);
 		}
-		current = next_node;
+		current = new_node;
 	}
 }
