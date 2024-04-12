@@ -35,6 +35,7 @@ Each group of two should pair program for at least the mandatory part.
 		}
 
 
+ * Funcion:
 
 		#include <stdio.h>
 		#include "sort.h"
@@ -105,18 +106,18 @@ If an answer is required within a file, all your answers files must have a newli
  
   * Write in the file 0-O, the big O notations of the time complexity of the Bubble sort algorithm, with 1 notation per line:
 
-  * in the best case
-  * in the average case
-  * in the worst case
+  - in the best case
+  - in the average case
+  - in the worst case
 
 * **1. Insertion sort**
   * [1-insertion_sort_list.c](./1-insertion_sort_list.c): Function that sorts a doubly linked list of integers in ascending order using the Insertion sort algorithm
 
   * Write in the file 1-O, the big O notations of the time complexity of the Insertion sort algorithm, with 1 notation per line:
 
-	in the best case
-	in the average case
-	in the worst case
+  - in the best case
+  - in the average case
+  - in the worst case
 
 
 * **2. Selection sort**
@@ -124,17 +125,17 @@ If an answer is required within a file, all your answers files must have a newli
 
   * Write in the file 2-O, the big O notations of the time complexity of the Selection sort algorithm, with 1 notation per line:
 
-	in the best case
-	in the average case
-	in the worst case
+  - in the best case
+  - in the average case
+  - in the worst case
 
 * **3. Quick sort**
   * [3-quick_sort.c](./3-quick_sort.c): Function that sorts an array of integers in ascending order using the Quick sort algorithm
 
   * Write in the file 3-O, the big O notations of the time complexity of the Quick sort algorithm, with 1 notation per line:
 
-	in the best case
-	in the average case
-	in the worst case
+  - in the best case
+  - in the average case
+  - in the worst case
 
 ## Advance Tasks:
